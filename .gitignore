@@ -1,0 +1,7 @@
+node_modules/
+build/
+data/db/
+data/projects/
+data/cache/
+.env
+*.db

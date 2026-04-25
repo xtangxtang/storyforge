@@ -1,0 +1,31 @@
+{
+  "name": "意外重逢",
+  "description": "两个曾经相爱的人在某个偶然场合重逢的故事",
+  "genre": "romance",
+  "scenes": [
+    {
+      "scene_num": 1,
+      "location": "咖啡馆",
+      "setup": "雨天，窗外下着雨，主角独自坐在窗边",
+      "action": "门铃响起，旧情人推门走进来，两人目光相遇",
+      "dialogue": [],
+      "duration": 8
+    },
+    {
+      "scene_num": 2,
+      "location": "咖啡馆门口",
+      "setup": "两人对视，空气仿佛凝固",
+      "action": "犹豫，走近，微笑",
+      "dialogue": [{"character": "A", "line": "好久不见"}, {"character": "B", "line": "是啊，好久不见"}],
+      "duration": 5
+    },
+    {
+      "scene_num": 3,
+      "location": "咖啡馆内",
+      "setup": "两人坐下，开始交谈",
+      "action": "从客套到真诚，从微笑到落泪",
+      "dialogue": [],
+      "duration": 7
+    }
+  ]
+}

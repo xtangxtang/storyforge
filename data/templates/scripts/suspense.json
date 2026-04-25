@@ -1,0 +1,31 @@
+{
+  "name": "悬疑反转",
+  "description": "一个看似普通的场景，隐藏着意想不到的真相",
+  "genre": "thriller",
+  "scenes": [
+    {
+      "scene_num": 1,
+      "location": "公寓走廊",
+      "setup": "深夜，灯光昏暗，脚步声",
+      "action": "主角走到门口，发现门虚掩着",
+      "dialogue": [],
+      "duration": 6
+    },
+    {
+      "scene_num": 2,
+      "location": "客厅",
+      "setup": "房间被翻过，东西散落一地",
+      "action": "主角环顾四周，发现桌上留下一张纸条",
+      "dialogue": [],
+      "duration": 5
+    },
+    {
+      "scene_num": 3,
+      "location": "客厅",
+      "setup": "主角读完纸条，表情从震惊到冷笑",
+      "action": "原来一切都在预料之中",
+      "dialogue": [],
+      "duration": 4
+    }
+  ]
+}

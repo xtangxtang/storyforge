@@ -1,0 +1,40 @@
+{
+  "name": "storyforge",
+  "version": "0.1.0",
+  "description": "AI-powered short video creation tool - from idea to finished video",
+  "main": "build/app.js",
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "build": "tsc",
+    "start": "node build/app.js",
+    "db:migrate": "tsx src/lib/migrate.ts",
+    "db:reset": "rm -f data/db/storyforge.db && tsx src/lib/migrate.ts"
+  },
+  "keywords": ["ai", "video", "storyboard", "creative"],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtangxtang/storyforge.git"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "knex": "^3.2.5",
+    "morgan": "^1.10.1",
+    "uuid": "^13.0.0",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^25.6.0",
+    "@types/uuid": "^11.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}

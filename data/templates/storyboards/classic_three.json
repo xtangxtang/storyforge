@@ -1,0 +1,24 @@
+{
+  "name": "经典三镜头",
+  "description": "全景引入 → 中景对话 → 特写情绪",
+  "shots": [
+    {
+      "shot_type": "全景",
+      "camera_move": "固定",
+      "description": "展示环境和人物位置关系",
+      "duration": 4
+    },
+    {
+      "shot_type": "中景",
+      "camera_move": "缓慢推进",
+      "description": "聚焦人物上半身和表情",
+      "duration": 5
+    },
+    {
+      "shot_type": "特写",
+      "camera_move": "固定",
+      "description": "捕捉微表情和情绪变化",
+      "duration": 3
+    }
+  ]
+}

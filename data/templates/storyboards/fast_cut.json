@@ -1,0 +1,30 @@
+{
+  "name": "快速剪辑",
+  "description": "多镜头快速切换，营造紧张节奏",
+  "shots": [
+    {
+      "shot_type": "特写",
+      "camera_move": "固定",
+      "description": "手部动作细节",
+      "duration": 2
+    },
+    {
+      "shot_type": "中景",
+      "camera_move": "跟随",
+      "description": "人物快速移动",
+      "duration": 2
+    },
+    {
+      "shot_type": "全景",
+      "camera_move": "摇镜头",
+      "description": "环境全景展示",
+      "duration": 3
+    },
+    {
+      "shot_type": "特写",
+      "camera_move": "推近",
+      "description": "面部表情突变",
+      "duration": 2
+    }
+  ]
+}

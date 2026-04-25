@@ -1,0 +1,6 @@
+{
+  "name": "写实电影",
+  "description": "电影级写实风格，暗调，高对比，胶片质感",
+  "visual_style": "cinematic photography, realistic style, low key lighting, high contrast, film grain texture, shallow depth of field, dramatic shadows",
+  "color_palette": ["#1A1A2E", "#16213E", "#0F3460", "#E94560", "#533483"]
+}
